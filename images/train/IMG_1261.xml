@@ -1,0 +1,26 @@
+<annotation>
+	<folder>learning_data</folder>
+	<filename>IMG_1261.JPG</filename>
+	<path>D:\learning_data\IMG_1261.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4032</width>
+		<height>3024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>screw</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1556</xmin>
+			<ymin>1093</ymin>
+			<xmax>2633</xmax>
+			<ymax>1497</ymax>
+		</bndbox>
+	</object>
+</annotation>

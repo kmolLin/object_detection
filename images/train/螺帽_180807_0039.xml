@@ -1,0 +1,26 @@
+<annotation>
+	<folder>螺帽</folder>
+	<filename>螺帽_180807_0039.jpg</filename>
+	<path>D:\data_op\螺帽\螺帽_180807_0039.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1108</width>
+		<height>1478</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>nut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>456</xmin>
+			<ymin>442</ymin>
+			<xmax>660</xmax>
+			<ymax>642</ymax>
+		</bndbox>
+	</object>
+</annotation>
