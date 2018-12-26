@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-5.1.dtd">
+<!-- eric project file for project objectdect -->
+<!-- Saved: 2018-08-14, 16:18:17 -->
+<!-- Copyright (C) 2018 ,  -->
+<Project version="5.1">
+  <Language>en_US</Language>
+  <Hash>903aa18ec13ddc6cd2db6fbe836d37c38d101fbb</Hash>
+  <ProgLanguage mixed="0">Python3</ProgLanguage>
+  <ProjectType>PyQt5</ProjectType>
+  <Version>0.1</Version>
+  <Author></Author>
+  <Email></Email>
+  <Eol index="0"/>
+  <Sources>
+    <Source>Ui_mainwindow.py</Source>
+    <Source>__init__.py</Source>
+    <Source>calcdata.py</Source>
+    <Source>calibationopencv.py</Source>
+    <Source>luanch.py</Source>
+    <Source>mainwindow.py</Source>
+    <Source>utils/__init__.py</Source>
+    <Source>utils/category_util.py</Source>
+    <Source>utils/category_util_test.py</Source>
+    <Source>utils/config_util.py</Source>
+    <Source>utils/config_util_test.py</Source>
+    <Source>utils/context_manager.py</Source>
+    <Source>utils/context_manager_test.py</Source>
+    <Source>utils/dataset_util.py</Source>
+    <Source>utils/dataset_util_test.py</Source>
+    <Source>utils/json_utils.py</Source>
+    <Source>utils/json_utils_test.py</Source>
+    <Source>utils/label_map_util.py</Source>
+    <Source>utils/label_map_util_test.py</Source>
+    <Source>utils/learning_schedules.py</Source>
+    <Source>utils/learning_schedules_test.py</Source>
+    <Source>utils/metrics.py</Source>
+    <Source>utils/metrics_test.py</Source>
+    <Source>utils/np_box_list.py</Source>
+    <Source>utils/np_box_list_ops.py</Source>
+    <Source>utils/np_box_list_ops_test.py</Source>
+    <Source>utils/np_box_list_test.py</Source>
+    <Source>utils/np_box_mask_list.py</Source>
+    <Source>utils/np_box_mask_list_ops.py</Source>
+    <Source>utils/np_box_mask_list_ops_test.py</Source>
+    <Source>utils/np_box_mask_list_test.py</Source>
+    <Source>utils/np_box_ops.py</Source>
+    <Source>utils/np_box_ops_test.py</Source>
+    <Source>utils/np_mask_ops.py</Source>
+    <Source>utils/np_mask_ops_test.py</Source>
+    <Source>utils/object_detection_evaluation.py</Source>
+    <Source>utils/object_detection_evaluation_test.py</Source>
+    <Source>utils/ops.py</Source>
+    <Source>utils/ops_test.py</Source>
+    <Source>utils/per_image_evaluation.py</Source>
+    <Source>utils/per_image_evaluation_test.py</Source>
+    <Source>utils/per_image_vrd_evaluation.py</Source>
+    <Source>utils/per_image_vrd_evaluation_test.py</Source>
+    <Source>utils/shape_utils.py</Source>
+    <Source>utils/shape_utils_test.py</Source>
+    <Source>utils/static_shape.py</Source>
+    <Source>utils/static_shape_test.py</Source>
+    <Source>utils/test_case.py</Source>
+    <Source>utils/test_utils.py</Source>
+    <Source>utils/test_utils_test.py</Source>
+    <Source>utils/variables_helper.py</Source>
+    <Source>utils/variables_helper_test.py</Source>
+    <Source>utils/visualization_utils.py</Source>
+    <Source>utils/visualization_utils_test.py</Source>
+    <Source>utils/vrd_evaluation.py</Source>
+    <Source>utils/vrd_evaluation_test.py</Source>
+  </Sources>
+  <Forms>
+    <Form>mainwindow.ui</Form>
+  </Forms>
+  <MainScript>luanch.py</MainScript>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.e4p" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES"/>
+    <FiletypeAssociation pattern="*.md" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.proto" type="PROTOCOLS"/>
+    <FiletypeAssociation pattern="*.py" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.py3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.qm" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.qrc" type="RESOURCES"/>
+    <FiletypeAssociation pattern="*.rst" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.ts" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.txt" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.ui" type="FORMS"/>
+    <FiletypeAssociation pattern="GNUmakefile" type="OTHERS"/>
+    <FiletypeAssociation pattern="Makefile" type="OTHERS"/>
+    <FiletypeAssociation pattern="README" type="OTHERS"/>
+    <FiletypeAssociation pattern="README.*" type="OTHERS"/>
+    <FiletypeAssociation pattern="makefile" type="OTHERS"/>
+  </FiletypeAssociations>
+</Project>
