@@ -6,8 +6,8 @@ the left side is the identified original image, and
 the right side is the result found using faster rcnn method.
 
 <p>
-<img src="images/orignal.jpg" width="360px">
-<img src="images/identified.jpg" width="360px">
+<img src="images/orignal.jpg" width="380px">
+<img src="images/identified.jpg" width="380px">
 </p>
 
 ## Need to install python module
