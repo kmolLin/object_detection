@@ -4,8 +4,8 @@ import cv2
 import numpy as np
 import tensorflow as tf
 import sys
-from utils import label_map_util
-from utils import visualization_utils as vis_util
+from .utils import label_map_util
+from .utils import visualization_utils as vis_util
 
 
 def calcimage(image):
@@ -13,10 +13,11 @@ def calcimage(image):
     try:
         origin = sys._MEIPASS
     except AttributeError:
-        origin = '.'
+        origin = 'core'
     # Name of the directory containing the object detection module we're using
+
     MODEL_NAME = 'inference_graph'
-    
+
     # Path to frozen detection graph .pb file, which contains the model that is used
     # for object detection.
     PATH_TO_CKPT = os.path.join(origin, MODEL_NAME, 'frozen_inference_graph.pb')

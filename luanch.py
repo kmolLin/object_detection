@@ -1,7 +1,7 @@
 # Start detected
 # Including Python module: PyQt5, pygraphy, pyopengl
 # Copyright (C) 2017 you shang [pyquino@gmail.com]
-from mainwindow import MainWindow
+from core.mainwindow import MainWindow
 from PyQt5.QtWidgets import QApplication
 from sys import argv, exit
 

@@ -8,8 +8,8 @@ from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 import cv2
-from calcdata import calcimage
-from Ui_mainwindow import Ui_MainWindow
+from .calcdata import calcimage
+from .Ui_mainwindow import Ui_MainWindow
 import os.path
 import time
 from typing import List, Tuple
@@ -71,12 +71,12 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     def opencv_initdis(self,files, mtx, dist):
         img = cv2.imread(files)
         h,  w = img.shape[:2]
-        newcameramtx, roi=cv2.getOptimalNewCameraMatrix(mtx,dist,(w,h),1,(w,h))
-        mapx,mapy = cv2.initUndistortRectifyMap(mtx,dist,None,newcameramtx,(w,h),5)
-        dst = cv2.remap(img,mapx,mapy,cv2.INTER_LINEAR)
+        newcameramtx, roi = cv2.getOptimalNewCameraMatrix(mtx, dist, (w, h), 1, (w, h))
+        mapx,mapy = cv2.initUndistortRectifyMap(mtx, dist, None, newcameramtx, (w, h), 5)
+        dst = cv2.remap(img, mapx, mapy, cv2.INTER_LINEAR)
 
         # crop the image
-        x,y,w,h = roi
+        x, y, w, h = roi
         dst = dst[y:y+h, x:x+w]
         filename, _ = QFileDialog.getSaveFileName(self, "Save File", "data2.jpg", "Text files (*.jpg)")
         if filename:
@@ -267,9 +267,9 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     def on_calcpix2glo_btn_clicked(self):
         print(self.screwlsit)
         self.catchpoint = []
-        test = np.array((  [[0.015984,-0.4931,0],
-                            [-0.4935,-0.025,0],
-                            [596.56166,-83.9282,1]]))
+        test = np.array((  [[0.015984, -0.4931, 0],
+                            [-0.4935, -0.025, 0],
+                            [596.56166, -83.9282, 1]]))
         for i in self.screwlsit:            
             endpoint = np.dot([i[0], i[1], 1], test)
             print(endpoint)
